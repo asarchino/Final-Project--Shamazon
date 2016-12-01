@@ -6,6 +6,18 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .shoppingcart{
+    width:34px;
+    height:30px;
+    float: right;
+    margin-right: 20px;
+  }
+  .user{
+    width:34px;
+    height:30px;
+    float: right;
+    margin-right: 20px;
+  }
   .search-container input{
     background-color:#2773b3;
     height: 40px;
@@ -17,17 +29,54 @@
     height: 100px;
 
   }
+  .searchbar{
+    width:470px;
+    height: 40px;
+    margin: auto;
+    transform: translateY(20px);
+  }
+  .searchbar input{
+    color: grey;
+    height:35px;
+    width: 400px;
+    font-size: 20px;
+    font-family: helvetica;
+    float: left;
+  }
+  .searchbutton{
+    background-color: yellow;
+    width: 45px;
+    height:45px;
+    float: left;
+  }
+  .searchbutton img{
+    padding: 8px;
+  }
   .header-bg-blue{
     background-color:#2773b3;
     width:100%;
     height: 85px;
     font-size: 10px;
     vertical-align: bottom;
+  }
+  .header-bg-blue h1{
+      color: white;
+      font-style: helvetica;
+      margin: 0 0;
+      transform: translateY(20px);
+      }
+    .header-bg-blue h2{
+      color: white;
+      font-style: helvetica;
+      margin-left: 30px;
+      margin-top: 25px;
+
     }
+
     .homeitems {
     background-color: #e3dfd5;
     width: 100%;
-height: 200%;
+    height: 200%;
 }
 form {
 padding-left: 15%;
@@ -168,20 +217,52 @@ float: left;
     float: left;
     padding-right: 2%;
   }
-.smallitem3 {
-width: 15%;
-float: left;
-}
-  h1{
-    color: white;
-    font-style: helvetica;
-    margin: 0 0;
-
-    }
-  h2{
-    color: white;
-    font-style: helvetica;
+  .smallitem3 {
+    width: 15%;
+    float: left;
   }
 body{
   margin: 0;
+}
+.More-Items img {
+  float: left;
+  width: 150px;
+  height: 130px;
+  margin-right: 20px;
+}
+.More-Items{
+  background-color: #E0E0E0;
+  width: 100%;
+  height: 200px;
+}
+.More-Items h1{
+  margin: 0;
+  font-weight: lighter;
+  color: #2773b3
+}
+
+.Footer{
+  width: 100%;
+  height: 400px;
+  background-color: #2773b3;
+  margin: 0;
+
+}
+.bottom-right{
+  width: 150px;
+  height:60px;
+}
+.Footer h1{
+  font-weight: lighter;
+  color: white;
+  margin-left: 20px;
+}
+.Footer p{
+  color: white;
+  margin: 0;
+  margin-left: 20px
+}
+.copyright{
+  margin-top: 150px;
+ color: white;
 }
