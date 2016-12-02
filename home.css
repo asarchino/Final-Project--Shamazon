@@ -1,6 +1,10 @@
 a{
   text-decoration: none;
 }
+body{
+margin: 0;
+background-color: #E0E0E0;
+}
   .main-ad{
     width: 100%;
     height: 100px;
@@ -88,14 +92,6 @@ a{
     padding-left: 5%;
     padding-top: 2%;
   }
-  form {
-    padding-left: 15%;
-  }
-  form h3 {
-    font-family: Helvetica;
-    font-size: 24px;
-    color: #000;
-  }
 
 .part1{
 width: 510px;
@@ -128,28 +124,16 @@ h2{
     left: 50%;
     transform: translateX(-50%);
   }
-  .largeitem {
+  .big {
     width: 62%;
     float: left;
     position: relative;
   }
-  .smallitem {
+  .little {
     width: 31%;
     float: left;
   }
-  .smallitem2 {
-    width: 15%;
-    float: left;
-    padding-right: 2%;
-  }
-  .smallitem3 {
-    width: 15%;
-    float: left;
-  }
-  body{
-  margin: 0;
-  background-color: #E0E0E0;
-}
+
   .More-Items img {
     float: left;
     width: 150px;
