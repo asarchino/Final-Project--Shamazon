@@ -1,5 +1,10 @@
 body{
   margin: 0 0;
+  background-color: #E0E0E0;
+}
+a{
+  text-decoration: none;
+  color: black;
 }
 .header-bg-blue{
   background-color:#2773b3;
@@ -59,160 +64,168 @@ body{
   .searchbutton img{
     padding: 8px;
   }
-  .main-container{
-    background-color:#E0E0E0;
-    width: 100%;
-    height: 400px;
-    margin: 0;
+.Large-container{
+  width: 100%;
+  height: 2000px;
+  background-color:#E0E0E0;
   }
-  .main-container p{
-    font-size: 15px;
-    margin:0;
-    margin-left: 40px;
-    transform: translateY(20px);
-  }
-  .sideimages{
-    width:60px;
+  .checkout{
+    width: 700px;
     height:300px;
-    margin-left: 40px;
-    float: left;
-    margin-right: 20px;
-    margin-top: 50px;
-
-  }
-  .sideimages img{
-    width: 60px;
-    height: 60px;
-  }
-  .iphone{
-    width: 300px;
+    margin-left: 60px;
+    margin-right: 0;
+}
+.checkout p {
+  color: grey;
+  font-family: helvetica;
+  font-size: 18px;
+}
+.checkout h1{
+  color:#2773b3;
+  font-family: helvetica;
+}
+.payup p {
+  color: grey;
+  font-family: helvetica;
+  font-size: 18px;
+}
+.payup {
+    width: 500px;
     height:300px;
-    float: left;
-    margin-top: 50px;
-    margin-right: 60px;
+    margin-left: 60px;
+    margin-right: 0;
 
-  }
-  .iphone img{
-    width: 300px;
-    height: 300px;
-  }
-  .info{
-    width:300px;
-    margin-top: 50px;
-    float:left;
+}
+.payup img{
+  transform: translateY(10px);
 
-  }
-  .info h1{
-    color: #2773b3;
-  }
-  .Title h1{
-    font-weight: lighter;
+}
+.small{
+  width: 100px;
+  font-family: helvetica;
+  font-size: 18px;
+  height: 40px;
+  margin-bottom: 5px;
+  transform: translateY(40px);
+}
+.large{
+  width: 300px;
+  font-family: helvetica;
+  font-size: 18px;
+  height: 40px;
+  margin-bottom: 5px;
+  transform: translateY(40px);
+}
+.payup h3{
+  margin-left: 60px;
+  transform: translateY(30px);
+
+}
+
+select{
+  transform: translateY(-10px) translateX(265px);
+}
+.review{
+      width: 900px;
+      height:300px;
+      margin-left: 60px;
+      margin-right: 0;
   }
 
-  .List{
-    width: 100%;
-    height: 180px;
-    }
-    .bullets ul{
-      color: black;
-      font-family: helvetica;
-    }
-  .pics{
-    width:100%;
-    height: 60px;
+.review img {
+  margin-left: 60px;
+  width: 200px;
+  height:200px;
+  float: left;
+  margin-right: 100px;
 
-  }
-  .pics img{
-    height:100%;
-    width:60px;
-  }
-  .cart1{
-    width: 220px;
-    height:380px;
-    float:right;
-    margin-top: 50px;
-    margin-right: 30px;
-  }
-  .button{
-    height:45px;
-    background-color: yellow;
-    text-align: center;
-  }
-  .button h1{
-    color: black;
-  }
-  .button h1{
-    font-size: 20px;
-    font-weight: lighter;
-    font-style: helvetica;
-    transform: translateY(10px);
- }
-  .price{
-    height:30px;
-  }
-  .price h1{
-    font-weight: lighter;
-    font-size: 20px;
-    float:left;
-    margin:15px;
-  }
-  .price h2{
-    font-weight: lighter;
-    font-size: 20px;
-    float:left;
-    margin:15px;
-    color: green;
-  }
-  .stock{
+}
+.review p {
+  color: grey;
+  font-family: helvetica;
+  font-size: 18px;
+}
+.imalmostdone{
+  float: left;
+
+}
+
+  .smallinput{
+    width: 200px;
+    font-family: helvetica;
+    font-size: 18px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+  .largeinput{
+    width:410px;
+    height:40px;
+    font-family: helvetica;
+    font-size: 18px;
+    margin-bottom: 5px;
+
+
+}
+.Large-container h3{
+  color: grey;
+  font-family:helvetica;
+  font-weight: lighter;
+}
+.imalmostdone select{
+  transform: translateX(100px) translateY(-35px);
+}
+
+
+
+
+
+.bye {
+  width: 220px;
+  height:380px;
+  float:right;
+  margin-top: 50px;
+  margin-right: 100px;
+  transform: translateY(-750px);
+}
+.bye p{
+  font-size: 10px;
+  font-style: helvetica;
+}
+.bye h1{
+  font-weight: lighter;
+  margin:18px 0px;
+
+}
+.box{
+  width: 200px;
+  height:50px;
+  background-color: yellow;
+}
+.Items{
   height:30px;
-  }
-  .stock h1{
-    font-weight: lighter;
-    font-size: 20px;
-    float:left;
-    margin:15px;
-  }
-  .stock h2{
-    font-weight: lighter;
-    font-size: 20px;
-    float:left;
-    margin:15px;
-    color: green;
-  }
-  .protection{
-    height:94px;
-  }
-  .protection img{
-    width:220px;
-    height:94px;
-  }
-  .delivery{
-    height:42px;
-  }
-  .delivery p{
-    margin-top: 40px;
-  }
-  .More-Items{
-    background-color: #E0E0E0;
-    width: 100%;
-    height: 200px;
-  }
-  .More-Items h1{
-    margin: 0;
-    font-weight: lighter;
-    color: #2773b3;
-  }
-  .More-Items img {
-    float: left;
-    width: 150px;
-    height: 130px;
-    margin-right: 20px;
-  }
+  font-size: 20px;
+  margin:0 15px;
+}
+.Items h1{
+  font-weight: lighter;
+  font-size: 20px;
+  float:left;
+  margin: 0 15px;
+}
+.Items h2{
+  font-weight: lighter;
+  font-size: 20px;
+  float:left;
+  margin:0 15px;
+}
+
   .Footer{
     width: 100%;
     height: 400px;
     background-color: #2773b3;
-    margin: 0;
+
+
 
   }
   .bottom-right{
