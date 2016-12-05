@@ -1,25 +1,24 @@
-body{
-  margin: 0 0;
-  background-color: #E0E0E0;
-}
-a{
-  text-decoration: none;
-  color: black;
-}
-.header-bg-blue{
-  background-color:#2773b3;
-  width:100%;
-  height: 130px;
-  font-size: 10px;
-  vertical-align: bottom;
+  body{
+    margin: 0 0;
+    background-color: #E0E0E0;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .header-bg-blue{
+    background-color:#2773b3;
+    width:100%;
+    height: 130px;
+    font-size: 10px;
+    vertical-align: bottom;
   }
   .header-bg-blue h1{
-  color: white;
-  font-style: helvetica;
-  margin: 0;
-  transform: translateY(20px);
-  text-align: center;
-
+    color: white;
+    font-style: helvetica;
+    margin: 0;
+    transform: translateY(20px);
+    text-align: center;
   }
   .header-bg-blue h2{
     color: white;
@@ -27,7 +26,6 @@ a{
     margin-top: 65px;
     margin-left: 35px;
   }
-
   .shoppingcart{
     width:34px;
     height:30px;
@@ -64,155 +62,143 @@ a{
   .searchbutton img{
     padding: 8px;
   }
-.Large-container{
-  width: 100%;
-  height: 2000px;
-  background-color:#E0E0E0;
+  .Large-container{
+    width: 100%;
+    height: 2000px;
+    background-color:#E0E0E0;
   }
   .checkout{
     width: 700px;
     height:300px;
     margin-left: 60px;
     margin-right: 0;
-}
-.checkout p {
-  color: grey;
-  font-family: helvetica;
-  font-size: 18px;
-}
-.checkout h1{
-  color:#2773b3;
-  font-family: helvetica;
-}
-.payup p {
-  color: grey;
-  font-family: helvetica;
-  font-size: 18px;
-}
-.payup {
+  }
+  .checkout p {
+    color: grey;
+    font-family: helvetica;
+    font-size: 18px;
+  }
+  .checkout h1{
+    color:#2773b3;
+    font-family: helvetica;
+  }
+  .payup p {
+    color: grey;
+    font-family: helvetica;
+    font-size: 18px;
+  }
+  .payup {
     width: 500px;
     height:300px;
     margin-left: 60px;
     margin-right: 0;
-
-}
-.payup img{
-  transform: translateY(10px);
-
-}
-.small{
-  width: 100px;
-  font-family: helvetica;
-  font-size: 18px;
-  height: 40px;
-  margin-bottom: 5px;
-  transform: translateY(40px);
-}
-.large{
-  width: 300px;
-  font-family: helvetica;
-  font-size: 18px;
-  height: 40px;
-  margin-bottom: 5px;
-  transform: translateY(40px);
-}
-.payup h3{
-  margin-left: 60px;
-  transform: translateY(30px);
-
-}
-
-select{
-  transform: translateY(-10px) translateX(265px);
-}
-.review{
-      width: 900px;
-      height:300px;
-      margin-left: 60px;
-      margin-right: 0;
   }
-
-.review img {
-  margin-left: 60px;
-  width: 200px;
-  height:200px;
-  float: left;
-  margin-right: 100px;
-
-}
-.review p {
-  color: grey;
-  font-family: helvetica;
-  font-size: 18px;
-}
-.imalmostdone{
-  float: left;
-
-}
-
+  .payup img{
+    transform: translateY(10px);
+  }
+  .small{
+    width: 100px;
+    font-family: helvetica;
+    font-size: 18px;
+    height: 40px;
+    margin-bottom: 5px;
+    transform: translateY(40px);
+  }
+  .large{
+    width: 300px;
+    font-family: helvetica;
+    font-size: 18px;
+    height: 40px;
+    margin-bottom: 5px;
+    transform: translateY(40px);
+  }
+  .payup h3{
+    margin-left: 60px;
+    transform: translateY(30px);
+  }
+  select{
+    transform: translateY(-10px) translateX(265px);
+  }
+  .review{
+    width: 900px;
+    height:300px;
+    margin-left: 60px;
+    margin-right: 0;
+  }
+  .review img {
+    margin-left: 60px;
+    width: 200px;
+    height:200px;
+    float: left;
+    margin-right: 100px;
+  }
+  .review p {
+    color: grey;
+    font-family: helvetica;
+    font-size: 18px;
+  }
+  .imalmostdone{
+    float: left;
+  }
   .smallinput{
     width: 200px;
     font-family: helvetica;
     font-size: 18px;
     height: 40px;
     margin-bottom: 5px;
-}
-
+  }
   .largeinput{
     width:410px;
     height:40px;
     font-family: helvetica;
     font-size: 18px;
     margin-bottom: 5px;
-
-
-}
-.Large-container h3{
-  color: grey;
-  font-family:helvetica;
-  font-weight: lighter;
-}
-.imalmostdone select{
-  transform: translateX(100px) translateY(-35px);
-}
-.bye {
-  width: 220px;
-  height:380px;
-  float:right;
-  margin-top: 50px;
-  margin-right: 100px;
-  transform: translateY(-750px);
-}
-.bye p{
-  font-size: 10px;
-  font-style: helvetica;
-}
-.bye h1{
-  font-weight: lighter;
-  margin:18px 0px;
-
-}
-.box{
-  width: 200px;
-  height:50px;
-  background-color: yellow;
-}
-.Items{
-  height:30px;
-  font-size: 20px;
-  margin:0 15px;
-}
-.Items h1{
-  font-weight: lighter;
-  font-size: 20px;
-  float:left;
-  margin: 0 15px;
-}
-.Items h2{
-  font-weight: lighter;
-  font-size: 20px;
-  float:left;
-  margin:0 15px;
+  }
+  .Large-container h3{
+    color: grey;
+    font-family:helvetica;
+    font-weight: lighter;
+  }
+  .imalmostdone select{
+    transform: translateX(100px) translateY(-35px);
+  }
+  .bye {
+    width: 220px;
+    height:380px;
+    float:right;
+    margin-top: 50px;
+    margin-right: 100px;
+    transform: translateY(-750px);
+  }
+  .bye p{
+    font-size: 10px;
+    font-style: helvetica;
+  }
+  .bye h1{
+    font-weight: lighter;
+    margin:18px 0px;
+  }
+  .box{
+    width: 200px;
+    height:50px;
+    background-color: yellow;
+  }
+  .Items{
+    height:30px;
+    font-size: 20px;
+    margin:0 15px;
+  }
+  .Items h1{
+    font-weight: lighter;
+    font-size: 20px;
+    float:left;
+    margin: 0 15px;
+  }
+  .Items h2{
+    font-weight: lighter;
+    font-size: 20px;
+    float:left;
+    margin:0 15px;
   }
   .Footer{
     width: 100%;
